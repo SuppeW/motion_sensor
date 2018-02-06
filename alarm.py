@@ -6,4 +6,5 @@ while stop == False:
     print("your alarm is set to go off at 14:20")
     print(rn)
     if rn >= "14:19:00.000000":
+        print(rn)
         stop = True
