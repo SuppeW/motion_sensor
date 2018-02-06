@@ -1,9 +1,8 @@
 import datetime
 import os
 stop = False
-aTime = 18:00:00.000000
 while stop == False:
     rn = str(datetime.datetime.now().time())
-    print("Your alarm is set to go off at: "aTime)
-    if rn >= aTime:
+    print("your alarm is set to go off at 14:20")
+    if rn >= "14:20:00.000000":
         stop = True
