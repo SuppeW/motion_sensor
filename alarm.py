@@ -6,4 +6,3 @@ while stop == False:
     print(rn)
     if rn >= "18:00:00.000000":
         stop = True
-        os.system("start BTS_House_Of_Cards.mp3")0
