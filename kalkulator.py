@@ -1,4 +1,14 @@
 #Calculator 2+2 is 4
+
+def add(x, y):
+    return x + y
+def subtract(x, y):
+    return x - y
+def multiply(x, y):
+    return x * y
+def subtract(x, y):
+    return x / y
+
 print("quick mafs")
 print("ez mafs")
 print("")
