@@ -4,6 +4,8 @@ import time
 channel = 17
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(channel, GPIO.IN)
+
+def callback(channel):
     if GPIO.input(channel):
         print "Movement detected"
     else:
