@@ -3,7 +3,7 @@ import time
 
 try:
   #Python 2
-  import Tkinter as tk
+  import Tkinter asz tk
   from Tkinter import *
 except ImportError:
   #Python
