@@ -11,7 +11,7 @@ def callback(channel):
     else:
         print "Movement detected"
 
-GPIO.add_event_detected(channel, GPIO.BOTH, bouncetime=300)#Sier oss om pin'en går high eller overflow
+GPIO.add_event_detect(channel, GPIO.BOTH, bouncetime=300)#Sier oss om pin'en går high eller overflow
 GPIO.add_event_callback(channel, callback)
 
 while True:
